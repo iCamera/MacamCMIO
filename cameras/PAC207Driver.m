@@ -40,7 +40,7 @@
 
 
 void initializePixartDecoder(struct code_table * table);
-inline unsigned short getShort(unsigned char * pt);
+inline static unsigned short getShort(unsigned char * pt);
 int pixartDecompressRow(struct code_table * table, unsigned char * input, unsigned char * output, int width);
 
 
@@ -984,7 +984,7 @@ void initializePixartDecoder(struct code_table * table)
 //
 // Get the next byte, this works for both little and big endian systems
 //
-inline unsigned char getByte(unsigned char * input, unsigned int bitpos)
+inline static unsigned char getByte(unsigned char * input, unsigned int bitpos)
 {
 	unsigned char * address;
     

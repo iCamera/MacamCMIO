@@ -625,10 +625,7 @@ getNodeDC(unsigned int in, signed char *coeffbits, const struct tree_node *tree)
 }
 
 
-#if !(__FreeBSD__) && !defined(__APPLE__)
-static 
-#endif
-inline unsigned int 
+inline static unsigned int
 getBytes(int *rawData, struct comp_info *cinfo)
 {
 	int bufLen = cinfo->rawLen;
@@ -1348,10 +1345,7 @@ decompress8x4(unsigned char	*pOut,
 }
 
 
-#if !(__FreeBSD__) && !defined(__APPLE__)
-static 
-#endif
-inline void 
+inline static void
 copyBlock(unsigned char *src, unsigned char *dest, int destInc)
 {
 	int i;
@@ -1368,10 +1362,7 @@ copyBlock(unsigned char *src, unsigned char *dest, int destInc)
 }
 
 
-#if !(__FreeBSD__) && !defined(__APPLE__)
-static 
-#endif
-inline int
+inline static int
 decompress400NoMMXOV518(unsigned char	 *pIn,
 			unsigned char	 *pOut,
 			unsigned char	 *pTmp,
@@ -1408,10 +1399,7 @@ decompress400NoMMXOV518(unsigned char	 *pIn,
 		return 1;
 }
 
-#if !(__FreeBSD__) && !defined(__APPLE__)
-static 
-#endif
-inline int
+inline static int
 decompress420NoMMXOV518(unsigned char	 *pIn,
 			unsigned char	 *pOut,
 			unsigned char	 *pTmp,

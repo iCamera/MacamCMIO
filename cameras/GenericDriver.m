@@ -1963,13 +1963,14 @@ void BufferProviderRelease(void * info, const void * data, size_t size)
     err = DecompressSequenceFrameS(SequenceDecoding.sequenceIdentifier, 
                              (Ptr) (buffer->buffer + decodingSkipBytes),
                              buffer->numBytes - decodingSkipBytes, 0, NULL, NULL);
-            
-    [LUT processImageFrom:(UInt8 *) (* GetGWorldPixMap(QuicktimeDecoding.gworldPtr))->baseAddr
+    
+    PixMapHandle pixMap = GetGWorldPixMap(QuicktimeDecoding.gworldPtr);
+    [LUT processImageFrom:(UInt8 *) (* pixMap)->baseAddr
                      into:nextImageBuffer
                   numRows:[self height]
-             fromRowBytes:(* GetGWorldPixMap(QuicktimeDecoding.gworldPtr))->rowBytes
+             fromRowBytes:(* pixMap)->rowBytes
              intoRowBytes:nextImageBufferRowBytes
-                  fromBPP:(* GetGWorldPixMap(QuicktimeDecoding.gworldPtr))->pixelSize/8
+                  fromBPP:(* pixMap)->pixelSize/8
                alphaFirst:NO];
     
     /*

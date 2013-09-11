@@ -417,7 +417,7 @@ pascal VideoDigitizerError vdigSetDigitizerRect(vdigGlobals storage, Rect *digiR
     Rect nBounds;
     if (!digiRect) return qtParamErr;			//force pointer to be valid
     [(**storage).bridge nativeBounds:&nBounds];
-    if (!MacEqualRect(&nBounds,digiRect)) return qtParamErr;
+    if (!EqualRect(&nBounds,digiRect)) return qtParamErr;
     return 0;
 }
 
