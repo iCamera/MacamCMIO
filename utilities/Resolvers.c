@@ -20,7 +20,7 @@
 
 #include "Resolvers.h"
 #include <QuickTime/QuickTime.h>
-
+#include <QuickTime/QuickTimeComponents.h>
 
 bool ErrorName (IOReturn err, char* out_buf) {
     bool ok=true;

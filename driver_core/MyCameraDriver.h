@@ -20,6 +20,8 @@
 
 #import <Cocoa/Cocoa.h>
 #include <QuickTime/QuickTime.h>
+#include <QuickTime/ImageCompression.h>
+#include <QuickTime/MediaHandlers.h>
 #include <IOKit/IOKitLib.h>
 #include <IOKit/IOCFPlugIn.h>
 #include <IOKit/usb/IOUSBLib.h>

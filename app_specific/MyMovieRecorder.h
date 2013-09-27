@@ -8,6 +8,8 @@
 #import <Carbon/Carbon.h>
 #import <QuickTime/QuickTime.h>
 
+typedef struct MovieType**              Movie;
+
 @interface MyMovieRecorder : NSObject {
     CodecType codecType;
     CodecQ codecSpatialQuality;
