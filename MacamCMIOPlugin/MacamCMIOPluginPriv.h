@@ -11,7 +11,7 @@
 
 #pragma GCC visibility push(hidden)
 
-class CCMIOMacamPlugin {
+class MacamCCMIOPlugin {
 	public:
 		CFStringRef UUID(void);
 };
