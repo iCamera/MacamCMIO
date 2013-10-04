@@ -6,25 +6,14 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		F535ED6D08DB3971007943DA /* all */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = F535ED7408DB3971007943DA /* Build configuration list for PBXAggregateTarget "all" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = all;
-			productName = all;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
+		AF210AAB17FED63F00C06578 /* CMIO_DP_Macam_Device.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF210A9E17FED49C00C06578 /* CMIO_DP_Macam_Device.cpp */; };
+		AF210AAC17FED63F00C06578 /* CMIO_DP_Macam_Device.h in Sources */ = {isa = PBXBuildFile; fileRef = AF210A9F17FED49C00C06578 /* CMIO_DP_Macam_Device.h */; };
+		AF210AAD17FED63F00C06578 /* CMIO_DP_Macam_Plugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF210AA017FED49C00C06578 /* CMIO_DP_Macam_Plugin.cpp */; };
+		AF210AAE17FED63F00C06578 /* CMIO_DP_Macam_Plugin.h in Sources */ = {isa = PBXBuildFile; fileRef = AF210AA117FED49C00C06578 /* CMIO_DP_Macam_Plugin.h */; };
+		AF210AAF17FED63F00C06578 /* CMIO_DP_Macam_Stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF210AA217FED49C00C06578 /* CMIO_DP_Macam_Stream.cpp */; };
+		AF210AB017FED63F00C06578 /* CMIO_DP_Macam_Stream.h in Sources */ = {isa = PBXBuildFile; fileRef = AF210AA317FED49C00C06578 /* CMIO_DP_Macam_Stream.h */; };
 		F2D2CE6217F196DF00D21A92 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D2CC1917F1845000D21A92 /* CoreFoundation.framework */; };
-		F2D2CE6C17F196DF00D21A92 /* CMIO_DP_Macam_Plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = F2D2CE6B17F196DF00D21A92 /* CMIO_DP_Macam_Plugin.h */; };
-		F2D2CE6F17F196DF00D21A92 /* CMIO_DP_Macam_Plugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2D2CE6E17F196DF00D21A92 /* CMIO_DP_Macam_Plugin.cpp */; };
-		F2F0621617F1984B000B2FCE /* CMIO_DP_Macam_Device.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2F0621517F1984B000B2FCE /* CMIO_DP_Macam_Device.cpp */; };
-		F2F0621917F199E5000B2FCE /* CMIO_DP_Macam_Stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2F0621817F199E4000B2FCE /* CMIO_DP_Macam_Stream.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +24,18 @@
 		397B163C03CED9B900153FEE /* ov511_decomp.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ov511_decomp.c; sourceTree = "<group>"; };
 		39CBD64F03DC0D79000F7EFC /* MyKiaraFlippedDriver.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MyKiaraFlippedDriver.m; sourceTree = "<group>"; };
 		39CBD65003DC0D79000F7EFC /* MyKiaraFlippedDriver.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MyKiaraFlippedDriver.h; sourceTree = "<group>"; };
+		AF210A9E17FED49C00C06578 /* CMIO_DP_Macam_Device.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CMIO_DP_Macam_Device.cpp; sourceTree = "<group>"; };
+		AF210A9F17FED49C00C06578 /* CMIO_DP_Macam_Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMIO_DP_Macam_Device.h; sourceTree = "<group>"; };
+		AF210AA017FED49C00C06578 /* CMIO_DP_Macam_Plugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CMIO_DP_Macam_Plugin.cpp; sourceTree = "<group>"; };
+		AF210AA117FED49C00C06578 /* CMIO_DP_Macam_Plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMIO_DP_Macam_Plugin.h; sourceTree = "<group>"; };
+		AF210AA217FED49C00C06578 /* CMIO_DP_Macam_Stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CMIO_DP_Macam_Stream.cpp; sourceTree = "<group>"; };
+		AF210AA317FED49C00C06578 /* CMIO_DP_Macam_Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMIO_DP_Macam_Stream.h; sourceTree = "<group>"; };
+		AF210AA417FED49C00C06578 /* MacamCMIOPlugin-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MacamCMIOPlugin-Info.plist"; sourceTree = "<group>"; };
+		AF210AA517FED49C00C06578 /* MacamCMIOPlugin-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MacamCMIOPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		AF210AA617FED49C00C06578 /* MacamCMIOPluginPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacamCMIOPluginPriv.h; sourceTree = "<group>"; };
+		AF210AA717FED49C00C06578 /* MacamCMIOPluginProj.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = MacamCMIOPluginProj.xcconfig; sourceTree = "<group>"; };
+		AF210AA817FED49C00C06578 /* MacamCMIOPluginTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = MacamCMIOPluginTarget.xcconfig; sourceTree = "<group>"; };
+		AF210AAA17FED49C00C06578 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F2D2CC1917F1845000D21A92 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		F2D2CC1B17F1845900D21A92 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
 		F2D2CC1D17F1852000D21A92 /* CoreMediaIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMediaIO.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreMediaIO.framework; sourceTree = DEVELOPER_DIR; };
@@ -313,18 +314,7 @@
 		F2D2CE2217F195BA00D21A92 /* AUSilentTimeout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUSilentTimeout.h; sourceTree = "<group>"; };
 		F2D2CE2317F195BA00D21A92 /* AUTimestampGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AUTimestampGenerator.cpp; sourceTree = "<group>"; };
 		F2D2CE2417F195BA00D21A92 /* AUTimestampGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUTimestampGenerator.h; sourceTree = "<group>"; };
-		F2D2CE6117F196DF00D21A92 /* CMIOMacamPlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMIOMacamPlugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2D2CE6517F196DF00D21A92 /* CMIOMacamPlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CMIOMacamPlugin-Info.plist"; sourceTree = "<group>"; };
-		F2D2CE6717F196DF00D21A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F2D2CE6817F196DF00D21A92 /* CMIOMacamPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CMIOMacamPlugin-Prefix.pch"; sourceTree = "<group>"; };
-		F2D2CE6917F196DF00D21A92 /* CMIOMacamPluginProj.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CMIOMacamPluginProj.xcconfig; sourceTree = "<group>"; };
-		F2D2CE6A17F196DF00D21A92 /* CMIOMacamPluginTarget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CMIOMacamPluginTarget.xcconfig; sourceTree = "<group>"; };
-		F2D2CE6B17F196DF00D21A92 /* CMIO_DP_Macam_Plugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMIO_DP_Macam_Plugin.h; sourceTree = "<group>"; };
-		F2D2CE6E17F196DF00D21A92 /* CMIO_DP_Macam_Plugin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CMIO_DP_Macam_Plugin.cpp; sourceTree = "<group>"; };
-		F2D2CE7517F1981B00D21A92 /* CMIO_DP_Macam_Device.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMIO_DP_Macam_Device.h; sourceTree = "<group>"; };
-		F2F0621517F1984B000B2FCE /* CMIO_DP_Macam_Device.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CMIO_DP_Macam_Device.cpp; sourceTree = "<group>"; };
-		F2F0621717F199C8000B2FCE /* CMIO_DP_Macam_Stream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMIO_DP_Macam_Stream.h; sourceTree = "<group>"; };
-		F2F0621817F199E4000B2FCE /* CMIO_DP_Macam_Stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CMIO_DP_Macam_Stream.cpp; sourceTree = "<group>"; };
+		F2D2CE6117F196DF00D21A92 /* MacamCMIOPlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacamCMIOPlugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50132BE0FA8D9C6006E1027 /* SQ905C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQ905C.h; sourceTree = "<group>"; };
 		F50132BF0FA8D9C6006E1027 /* SQ905C.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQ905C.m; sourceTree = "<group>"; };
 		F5025ADD0F795A70009D9BED /* TP68xxDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TP68xxDriver.h; sourceTree = "<group>"; };
@@ -624,7 +614,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F2D2CE6117F196DF00D21A92 /* CMIOMacamPlugin.bundle */,
+				F2D2CE6117F196DF00D21A92 /* MacamCMIOPlugin.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -632,6 +622,7 @@
 		29B97314FDCFA39411CA2CEA /* wc */ = {
 			isa = PBXGroup;
 			children = (
+				AF210A9D17FED49C00C06578 /* MacamCMIOPlugin */,
 				F2D2CDE417F195BA00D21A92 /* AudioUnits */,
 				F2D2CCF917F1948C00D21A92 /* CoreAudio */,
 				F5BFF542029B59D601B6CBC8 /* README */,
@@ -642,7 +633,6 @@
 				F5F79A800212038E01E152CA /* cameras */,
 				F5217BEE0CDB8214001F446D /* sensors */,
 				F5F79A910212038E01E152CA /* utilities */,
-				F2D2CE6317F196DF00D21A92 /* CMIOMacamPlugin */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -657,6 +647,25 @@
 				F2D2CC1917F1845000D21A92 /* CoreFoundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF210A9D17FED49C00C06578 /* MacamCMIOPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				AF210A9E17FED49C00C06578 /* CMIO_DP_Macam_Device.cpp */,
+				AF210A9F17FED49C00C06578 /* CMIO_DP_Macam_Device.h */,
+				AF210AA017FED49C00C06578 /* CMIO_DP_Macam_Plugin.cpp */,
+				AF210AA117FED49C00C06578 /* CMIO_DP_Macam_Plugin.h */,
+				AF210AA217FED49C00C06578 /* CMIO_DP_Macam_Stream.cpp */,
+				AF210AA317FED49C00C06578 /* CMIO_DP_Macam_Stream.h */,
+				AF210AA417FED49C00C06578 /* MacamCMIOPlugin-Info.plist */,
+				AF210AA517FED49C00C06578 /* MacamCMIOPlugin-Prefix.pch */,
+				AF210AA617FED49C00C06578 /* MacamCMIOPluginPriv.h */,
+				AF210AA717FED49C00C06578 /* MacamCMIOPluginProj.xcconfig */,
+				AF210AA817FED49C00C06578 /* MacamCMIOPluginTarget.xcconfig */,
+				AF210AA917FED49C00C06578 /* InfoPlist.strings */,
+			);
+			path = MacamCMIOPlugin;
 			sourceTree = "<group>";
 		};
 		F2D2CC1F17F1872A00D21A92 /* DP */ = {
@@ -1102,32 +1111,6 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
-		F2D2CE6317F196DF00D21A92 /* CMIOMacamPlugin */ = {
-			isa = PBXGroup;
-			children = (
-				F2D2CE6917F196DF00D21A92 /* CMIOMacamPluginProj.xcconfig */,
-				F2D2CE6A17F196DF00D21A92 /* CMIOMacamPluginTarget.xcconfig */,
-				F2D2CE6B17F196DF00D21A92 /* CMIO_DP_Macam_Plugin.h */,
-				F2D2CE6E17F196DF00D21A92 /* CMIO_DP_Macam_Plugin.cpp */,
-				F2D2CE7517F1981B00D21A92 /* CMIO_DP_Macam_Device.h */,
-				F2F0621517F1984B000B2FCE /* CMIO_DP_Macam_Device.cpp */,
-				F2F0621717F199C8000B2FCE /* CMIO_DP_Macam_Stream.h */,
-				F2F0621817F199E4000B2FCE /* CMIO_DP_Macam_Stream.cpp */,
-				F2D2CE6417F196DF00D21A92 /* Supporting Files */,
-			);
-			path = CMIOMacamPlugin;
-			sourceTree = "<group>";
-		};
-		F2D2CE6417F196DF00D21A92 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F2D2CE6517F196DF00D21A92 /* CMIOMacamPlugin-Info.plist */,
-				F2D2CE6617F196DF00D21A92 /* InfoPlist.strings */,
-				F2D2CE6817F196DF00D21A92 /* CMIOMacamPlugin-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		F51B953E0AB9DB0400179B4C /* pwc_files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1487,16 +1470,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2D2CE6C17F196DF00D21A92 /* CMIO_DP_Macam_Plugin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F2D2CE6017F196DF00D21A92 /* CMIOMacamPlugin */ = {
+		F2D2CE6017F196DF00D21A92 /* MacamCMIOPlugin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2D2CE7017F196DF00D21A92 /* Build configuration list for PBXNativeTarget "CMIOMacamPlugin" */;
+			buildConfigurationList = F2D2CE7017F196DF00D21A92 /* Build configuration list for PBXNativeTarget "MacamCMIOPlugin" */;
 			buildPhases = (
 				F2D2CE5D17F196DF00D21A92 /* Sources */,
 				F2D2CE5E17F196DF00D21A92 /* Frameworks */,
@@ -1506,9 +1488,9 @@
 			);
 			dependencies = (
 			);
-			name = CMIOMacamPlugin;
+			name = MacamCMIOPlugin;
 			productName = CMIOMacamPlugin;
-			productReference = F2D2CE6117F196DF00D21A92 /* CMIOMacamPlugin.bundle */;
+			productReference = F2D2CE6117F196DF00D21A92 /* MacamCMIOPlugin.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -1519,7 +1501,7 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 			};
-			buildConfigurationList = F5E3BBBF08A9C910009E490F /* Build configuration list for PBXProject "macam" */;
+			buildConfigurationList = F5E3BBBF08A9C910009E490F /* Build configuration list for PBXProject "MacamCMIO" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -1535,8 +1517,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F535ED6D08DB3971007943DA /* all */,
-				F2D2CE6017F196DF00D21A92 /* CMIOMacamPlugin */,
+				F2D2CE6017F196DF00D21A92 /* MacamCMIOPlugin */,
 			);
 		};
 /* End PBXProject section */
@@ -1546,19 +1527,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2D2CE6F17F196DF00D21A92 /* CMIO_DP_Macam_Plugin.cpp in Sources */,
-				F2F0621617F1984B000B2FCE /* CMIO_DP_Macam_Device.cpp in Sources */,
-				F2F0621917F199E5000B2FCE /* CMIO_DP_Macam_Stream.cpp in Sources */,
+				AF210AAB17FED63F00C06578 /* CMIO_DP_Macam_Device.cpp in Sources */,
+				AF210AAC17FED63F00C06578 /* CMIO_DP_Macam_Device.h in Sources */,
+				AF210AAD17FED63F00C06578 /* CMIO_DP_Macam_Plugin.cpp in Sources */,
+				AF210AAE17FED63F00C06578 /* CMIO_DP_Macam_Plugin.h in Sources */,
+				AF210AAF17FED63F00C06578 /* CMIO_DP_Macam_Stream.cpp in Sources */,
+				AF210AB017FED63F00C06578 /* CMIO_DP_Macam_Stream.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F2D2CE6617F196DF00D21A92 /* InfoPlist.strings */ = {
+		AF210AA917FED49C00C06578 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F2D2CE6717F196DF00D21A92 /* en */,
+				AF210AAA17FED49C00C06578 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1595,7 +1579,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CMIOMacamPlugin/CMIOMacamPlugin-Prefix.pch";
+				GCC_PREFIX_HEADER = "MacamCMIOPlugin/MacamCMIOPlugin-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1605,7 +1589,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "CMIOMacamPlugin/CMIOMacamPlugin-Info.plist";
+				INFOPLIST_FILE = "MacamCMIOPlugin/MacamCMIOPlugin-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1632,12 +1616,12 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CMIOMacamPlugin/CMIOMacamPlugin-Prefix.pch";
+				GCC_PREFIX_HEADER = "MacamCMIOPlugin/MacamCMIOPlugin-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "CMIOMacamPlugin/CMIOMacamPlugin-Info.plist";
+				INFOPLIST_FILE = "MacamCMIOPlugin/MacamCMIOPlugin-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -1663,12 +1647,12 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CMIOMacamPlugin/CMIOMacamPlugin-Prefix.pch";
+				GCC_PREFIX_HEADER = "MacamCMIOPlugin/MacamCMIOPlugin-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "CMIOMacamPlugin/CMIOMacamPlugin-Info.plist";
+				INFOPLIST_FILE = "MacamCMIOPlugin/MacamCMIOPlugin-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -1694,33 +1678,17 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CMIOMacamPlugin/CMIOMacamPlugin-Prefix.pch";
+				GCC_PREFIX_HEADER = "MacamCMIOPlugin/MacamCMIOPlugin-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "CMIOMacamPlugin/CMIOMacamPlugin-Info.plist";
+				INFOPLIST_FILE = "MacamCMIOPlugin/MacamCMIOPlugin-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
 			name = "CVS Build";
-		};
-		F535ED7508DB3971007943DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				PRODUCT_NAME = all;
-			};
-			name = Debug;
-		};
-		F535ED7608DB3971007943DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				PRODUCT_NAME = all;
-			};
-			name = Release;
 		};
 		F5E3BBC008A9C910009E490F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1753,14 +1721,6 @@
 			};
 			name = Release;
 		};
-		F5F17A8809BA0A5F000AEB63 /* Recent OS Version Only */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				PRODUCT_NAME = all;
-			};
-			name = "Recent OS Version Only";
-		};
 		F5F17A8909BA0A5F000AEB63 /* Recent OS Version Only */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1774,14 +1734,6 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = "Recent OS Version Only";
-		};
-		F5F17A8D09BA0AA9000AEB63 /* CVS Build */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				PRODUCT_NAME = all;
-			};
-			name = "CVS Build";
 		};
 		F5F17A8E09BA0AA9000AEB63 /* CVS Build */ = {
 			isa = XCBuildConfiguration;
@@ -1802,7 +1754,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F2D2CE7017F196DF00D21A92 /* Build configuration list for PBXNativeTarget "CMIOMacamPlugin" */ = {
+		F2D2CE7017F196DF00D21A92 /* Build configuration list for PBXNativeTarget "MacamCMIOPlugin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2D2CE7117F196DF00D21A92 /* Debug */,
@@ -1813,18 +1765,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		F535ED7408DB3971007943DA /* Build configuration list for PBXAggregateTarget "all" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F535ED7508DB3971007943DA /* Debug */,
-				F5F17A8809BA0A5F000AEB63 /* Recent OS Version Only */,
-				F535ED7608DB3971007943DA /* Release */,
-				F5F17A8D09BA0AA9000AEB63 /* CVS Build */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		F5E3BBBF08A9C910009E490F /* Build configuration list for PBXProject "macam" */ = {
+		F5E3BBBF08A9C910009E490F /* Build configuration list for PBXProject "MacamCMIO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5E3BBC008A9C910009E490F /* Debug */,
